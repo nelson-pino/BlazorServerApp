@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BlazorServerApp.Shared
+namespace BlazorServerApp.Shared.cTabSet
 {
     #line hidden
     using System;
@@ -82,7 +82,14 @@ using BlazorServerApp.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 1 "C:\Users\nelson\Documents\Code\BlazorServerApp\Shared\cTabSet\TabSet.razor"
+using BlazorServerApp.Shared.cTabSet;
+
+#line default
+#line hidden
+#nullable disable
+    public partial class TabSet : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,15 +97,27 @@ using BlazorServerApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "C:\Users\nelson\Documents\Code\BlazorServerApp\Shared\NavMenu.razor"
+#line 15 "C:\Users\nelson\Documents\Code\BlazorServerApp\Shared\cTabSet\TabSet.razor"
        
-    private bool collapseNavMenu = true;
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+    public ITab ActiveTab { get; private set; }
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
+    public void AddTab(ITab tab)
     {
-        collapseNavMenu = !collapseNavMenu;
+        if(ActiveTab == null)
+        {
+            SetActiveTab(tab);
+        }
+
+    }
+    public void SetActiveTab(ITab tab)
+    {
+        if(ActiveTab != tab)
+        {
+            ActiveTab = tab;
+            StateHasChanged();
+        }
     }
 
 #line default

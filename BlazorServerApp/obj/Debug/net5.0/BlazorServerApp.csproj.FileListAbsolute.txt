@@ -58,3 +58,9 @@ C:\Users\nelson\Documents\Code\BlazorServerApp\obj\Debug\net5.0\BlazorServerApp.
 C:\Users\nelson\Documents\Code\BlazorServerApp\obj\Debug\net5.0\BlazorServerApp.csproj.CopyComplete
 C:\Users\nelson\Documents\Code\BlazorServerApp\obj\Debug\net5.0\RazorDeclaration\Shared\DialoGeneric.razor.g.cs
 C:\Users\nelson\Documents\Code\BlazorServerApp\obj\Debug\net5.0\Razor\Shared\DialoGeneric.razor.g.cs
+C:\Users\nelson\Documents\Code\BlazorServerApp\obj\Debug\net5.0\RazorDeclaration\Pages\ParametersSite.razor.g.cs
+C:\Users\nelson\Documents\Code\BlazorServerApp\obj\Debug\net5.0\Razor\Pages\ParametersSite.razor.g.cs
+C:\Users\nelson\Documents\Code\BlazorServerApp\obj\Debug\net5.0\RazorDeclaration\Shared\cTabSet\TabSet.razor.g.cs
+C:\Users\nelson\Documents\Code\BlazorServerApp\obj\Debug\net5.0\Razor\Shared\cTabSet\TabSet.razor.g.cs
+C:\Users\nelson\Documents\Code\BlazorServerApp\obj\Debug\net5.0\RazorDeclaration\Shared\cTabSet\Tab.razor.g.cs
+C:\Users\nelson\Documents\Code\BlazorServerApp\obj\Debug\net5.0\Razor\Shared\cTabSet\Tab.razor.g.cs

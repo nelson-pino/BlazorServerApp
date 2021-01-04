@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BlazorServerApp.Shared
+namespace BlazorServerApp.Pages
 {
     #line hidden
     using System;
@@ -82,7 +82,15 @@ using BlazorServerApp.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 2 "C:\Users\nelson\Documents\Code\BlazorServerApp\Pages\ParametersSite.razor"
+using BlazorServerApp.Shared.cTabSet;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/ParametersSite")]
+    public partial class ParametersSite : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,16 +98,9 @@ using BlazorServerApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "C:\Users\nelson\Documents\Code\BlazorServerApp\Shared\NavMenu.razor"
+#line 27 "C:\Users\nelson\Documents\Code\BlazorServerApp\Pages\ParametersSite.razor"
        
-    private bool collapseNavMenu = true;
-
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
+    private bool showThirdTab = true;
 
 #line default
 #line hidden

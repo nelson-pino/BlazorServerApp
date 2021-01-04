@@ -45,6 +45,39 @@
         }
       },
       {
+        "HashCode": 601959892,
+        "Kind": "Components.Component",
+        "Name": "BlazorServerApp.Pages.Index",
+        "AssemblyName": "BlazorServerApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorServerApp.Pages.Index"
+        }
+      },
+      {
+        "HashCode": -2138409914,
+        "Kind": "Components.Component",
+        "Name": "BlazorServerApp.Pages.Index",
+        "AssemblyName": "BlazorServerApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorServerApp.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorServerApp.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 164145404,
         "Kind": "Components.Component",
         "Name": "BlazorServerApp.Pages.FetchData",
@@ -78,35 +111,35 @@
         }
       },
       {
-        "HashCode": 601959892,
+        "HashCode": 1893633925,
         "Kind": "Components.Component",
-        "Name": "BlazorServerApp.Pages.Index",
+        "Name": "BlazorServerApp.Pages.ParametersSite",
         "AssemblyName": "BlazorServerApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "ParametersSite"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorServerApp.Pages.Index"
+          "Common.TypeName": "BlazorServerApp.Pages.ParametersSite"
         }
       },
       {
-        "HashCode": -2138409914,
+        "HashCode": -670369836,
         "Kind": "Components.Component",
-        "Name": "BlazorServerApp.Pages.Index",
+        "Name": "BlazorServerApp.Pages.ParametersSite",
         "AssemblyName": "BlazorServerApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorServerApp.Pages.Index"
+            "TagName": "BlazorServerApp.Pages.ParametersSite"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorServerApp.Pages.Index",
+          "Common.TypeName": "BlazorServerApp.Pages.ParametersSite",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -293,39 +326,6 @@
         }
       },
       {
-        "HashCode": -533259101,
-        "Kind": "Components.Component",
-        "Name": "BlazorServerApp.Shared.NavMenu",
-        "AssemblyName": "BlazorServerApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorServerApp.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": -2101716585,
-        "Kind": "Components.Component",
-        "Name": "BlazorServerApp.Shared.NavMenu",
-        "AssemblyName": "BlazorServerApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorServerApp.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorServerApp.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -510740859,
         "Kind": "Components.Component",
         "Name": "BlazorServerApp.Shared.DialoGeneric",
@@ -430,6 +430,239 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "BlazorServerApp.Shared.DialoGeneric.ChildContent",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -660760340,
+        "Kind": "Components.Component",
+        "Name": "BlazorServerApp.Shared.cTabSet.TabSet",
+        "AssemblyName": "BlazorServerApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TabSet"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorServerApp.Shared.cTabSet.TabSet"
+        }
+      },
+      {
+        "HashCode": 1436375586,
+        "Kind": "Components.Component",
+        "Name": "BlazorServerApp.Shared.cTabSet.TabSet",
+        "AssemblyName": "BlazorServerApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorServerApp.Shared.cTabSet.TabSet"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorServerApp.Shared.cTabSet.TabSet",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1088787776,
+        "Kind": "Components.ChildContent",
+        "Name": "BlazorServerApp.Shared.cTabSet.TabSet.ChildContent",
+        "AssemblyName": "BlazorServerApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "TabSet"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "BlazorServerApp.Shared.cTabSet.TabSet.ChildContent",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": -1772250079,
+        "Kind": "Components.ChildContent",
+        "Name": "BlazorServerApp.Shared.cTabSet.TabSet.ChildContent",
+        "AssemblyName": "BlazorServerApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "BlazorServerApp.Shared.cTabSet.TabSet"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "BlazorServerApp.Shared.cTabSet.TabSet.ChildContent",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1054862348,
+        "Kind": "Components.Component",
+        "Name": "BlazorServerApp.Shared.cTabSet.Tab",
+        "AssemblyName": "BlazorServerApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Tab"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorServerApp.Shared.cTabSet.Tab"
+        }
+      },
+      {
+        "HashCode": 1083954197,
+        "Kind": "Components.Component",
+        "Name": "BlazorServerApp.Shared.cTabSet.Tab",
+        "AssemblyName": "BlazorServerApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorServerApp.Shared.cTabSet.Tab"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorServerApp.Shared.cTabSet.Tab",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 342516025,
+        "Kind": "Components.ChildContent",
+        "Name": "BlazorServerApp.Shared.cTabSet.Tab.ChildContent",
+        "AssemblyName": "BlazorServerApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "Tab"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "BlazorServerApp.Shared.cTabSet.Tab.ChildContent",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": -1931373198,
+        "Kind": "Components.ChildContent",
+        "Name": "BlazorServerApp.Shared.cTabSet.Tab.ChildContent",
+        "AssemblyName": "BlazorServerApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "BlazorServerApp.Shared.cTabSet.Tab"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "BlazorServerApp.Shared.cTabSet.Tab.ChildContent",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -533259101,
+        "Kind": "Components.Component",
+        "Name": "BlazorServerApp.Shared.NavMenu",
+        "AssemblyName": "BlazorServerApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorServerApp.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -2101716585,
+        "Kind": "Components.Component",
+        "Name": "BlazorServerApp.Shared.NavMenu",
+        "AssemblyName": "BlazorServerApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorServerApp.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorServerApp.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16025,6 +16258,16 @@
   "RootNamespace": "BlazorServerApp",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\nelson\\Documents\\Code\\BlazorServerApp\\Pages\\ParametersSite.razor",
+      "TargetPath": "Pages\\ParametersSite.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\nelson\\Documents\\Code\\BlazorServerApp\\Shared\\cTabSet\\TabSet.razor",
+      "TargetPath": "Shared\\cTabSet\\TabSet.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\nelson\\Documents\\Code\\BlazorServerApp\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
@@ -16052,6 +16295,11 @@
     {
       "FilePath": "c:\\Users\\nelson\\Documents\\Code\\BlazorServerApp\\App.razor",
       "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\nelson\\Documents\\Code\\BlazorServerApp\\Shared\\cTabSet\\Tab.razor",
+      "TargetPath": "Shared\\cTabSet\\Tab.razor",
       "FileKind": "component"
     },
     {

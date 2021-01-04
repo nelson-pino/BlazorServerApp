@@ -1,0 +1,29 @@
+@page "/ParametersSite"
+@using BlazorServerApp.Shared.cTabSet;
+
+<TabSet>
+    <Tab Title="Generales">
+        <h4>Propiedades Globales de la Aplicaion Web</h4>
+
+        <label>
+            <input type="checkbox" @bind="showThirdTab" />
+            Toggle third tab
+        </label>
+    </Tab>
+    <Tab Title="Conexion">
+        <h5>Parametros de Conexion a la base de datos.</h5>
+        
+    </Tab>
+
+    @if (showThirdTab)
+    {
+        <Tab Title="Usuarios">
+            <h4>Welcome to the disappearing third tab!</h4>
+            <p>Toggle this tab from the first tab.</p>
+        </Tab>
+    }
+</TabSet>
+
+@code {
+    private bool showThirdTab = true;
+}
